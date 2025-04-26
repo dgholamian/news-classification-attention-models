@@ -10,7 +10,8 @@ This project demonstrates a full pipeline for text classification on the [AG New
 - **Categories:** World, Sports, Business, Sci/Tech
 - **Samples:** 120,000 training / 7,600 testing
 
-
+![Training Dataset Word Cloud](./Figures/training_wordclouds.png "Training Dataset Word Cloud")
+![Test Dataset Word Cloud](./Figures/test_wordclouds.png "Test Dataset Word Cloud")
 ---
 
 ## 🧹 Preprocessing Pipeline
@@ -21,17 +22,16 @@ This project demonstrates a full pipeline for text classification on the [AG New
 4. **Tokenization using `TextVectorization`**
 5. **One-hot encoding of labels**
 
+![Training Dataset Word Cloud After Cleaning](./Figures/cleaned_training_wordclouds.png "Training Dataset Word Cloud After Cleaning")
+![Test Dataset Word Cloud After Cleaning](./Figures/cleaned_test_wordclouds.png "Test Dataset Word Cloud After Cleaning")
+
 ---
 
 ## 🌈 Visualization
-
-- **Word Clouds:** Top words per class
 - **Label Distribution:** Frequency of each class
-
 Sample plots:
-- `training_wordclouds.png`
-- `test_wordclouds.png`
-- `training_dist.png`
+
+
 
 ---
 
