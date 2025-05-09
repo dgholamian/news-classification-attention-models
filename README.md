@@ -107,7 +107,7 @@ The LSTM-Attention model demonstrates high precision and recall across most clas
 
 The integration of an attention mechanism into the LSTM architecture improves the model’s focus on key information within sequences. This leads to better contextual understanding and higher classification performance, making it well-suited for news topic categorization tasks where nuanced semantic distinctions are important.
 
-![Confusion Matrix for LSTM with Attention Mechanism](./Figures/Confusion_matrix_LSTM+Attention.png "Confusion Matrix for LSTM with Attention Mechanism")
+<img src="./Figures/Confusion_matrix_LSTM+Attention.png" alt="Confusion Matrix for LSTM with Attention Mechanism" width="800" height="500"/>
 
 **Confusion Matrix for GRU with Attention Mechanism**
 
@@ -129,8 +129,7 @@ The overall accuracy of the model was **89.9%**, indicating effective learning o
 
 The integration of an attention mechanism with GRU significantly enhanced the model’s ability to focus on important tokens within sequences, resulting in improved classification performance. This architecture is well-suited for news categorization tasks where contextual understanding is essential.
 
-
-![Confusion Matrix for GRU with Attention Mechanism](./Figures/Confusion_matrix_GRU+Attention.png "Confusion Matrix for GRU with Attention Mechanism")
+<img src="./Figures/Confusion_matrix_GRU+Attention.png" alt="Confusion Matrix for GRU with Attention Mechanism" width="800" height="500"/>
 
 
 ---
