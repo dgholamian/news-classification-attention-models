@@ -1,4 +1,4 @@
-# News Classification with LSTM + Attention and GRU + Attention
+# Hybrid of LSTM+Attention Layer and GRU+Attention Layer for News Classification
 
 This project demonstrates a full pipeline for text classification on the [AG News dataset](https://www.tensorflow.org/datasets/catalog/ag_news_subset) using TensorFlow. It includes preprocessing, visualization, and training two deep learning models: one with LSTM + Attention and another with GRU + Attention.
 
