@@ -1,6 +1,6 @@
 # Hybrid of LSTM+Attention Layer and GRU+Attention Layer for News Classification
 
-This project demonstrates a full pipeline for text classification on the [AG News dataset](https://www.tensorflow.org/datasets/catalog/ag_news_subset) using TensorFlow. It includes preprocessing, visualization, and training two deep learning models: one with LSTM + Attention and another with GRU + Attention.
+This project demonstrates a full pipeline for text classification on the [AG News dataset](https://www.tensorflow.org/datasets/catalog/ag_news_subset) using TensorFlow. It includes preprocessing, visualization, and training two deep learning models: one with LSTM + Attention layer and another with GRU + Attention layer.
 
 ---
 
@@ -10,7 +10,10 @@ This project demonstrates a full pipeline for text classification on the [AG New
 - **Categories:** World, Sports, Business, Sci/Tech
 - **Samples:** 120,000 training / 7,600 testing
 
+### Word Cloud for original training data
 ![Training Dataset Word Cloud](./Figures/training_wordclouds.png "Training Dataset Word Cloud")
+
+### Word Cloud for original test data
 ![Test Dataset Word Cloud](./Figures/test_wordclouds.png "Test Dataset Word Cloud")
 ---
 
