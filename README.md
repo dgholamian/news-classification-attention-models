@@ -4,7 +4,7 @@ This project demonstrates a full pipeline for text classification on the [AG New
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** AG News Subset via `tensorflow_datasets`
 - **Categories:** World, Sports, Business, Sci/Tech
@@ -14,7 +14,7 @@ This project demonstrates a full pipeline for text classification on the [AG New
 ![Test Dataset Word Cloud](./Figures/test_wordclouds.png "Test Dataset Word Cloud")
 ---
 
-## 🧹 Preprocessing Pipeline
+## Preprocessing Pipeline
 
 1. **Lowercasing**
 2. **Removing punctuation/numbers**
@@ -27,7 +27,7 @@ This project demonstrates a full pipeline for text classification on the [AG New
 
 ---
 
-## 🌈 Visualization
+## Visualization
 - **Label Distribution:** Frequency of each class
 Sample plots:
 
@@ -35,9 +35,9 @@ Sample plots:
 
 ---
 
-## 🧠 Model Architectures
+##  Model Architectures
 
-### 🔸 LSTM + Attention
+### LSTM + Attention
 
 - Embedding layer
 - Bidirectional LSTM
@@ -45,13 +45,13 @@ Sample plots:
 - Global Average Pooling
 - Dense softmax layer
 
-### 🔸 GRU + Attention
+### GRU + Attention
 
 - Same as above, but using Bidirectional GRU
 
 ---
 
-## 🛠 Training Setup
+## Training Setup
 
 - **Loss:** Categorical Crossentropy
 - **Optimizer:** Adam
@@ -61,7 +61,7 @@ Sample plots:
 
 ---
 
-## 📈 Results
+## Results
 
 ### Accuracy & Loss Plots
 - `lstm_attention.png`
@@ -73,7 +73,7 @@ Sample plots:
 
 ---
 
-## 💾 Model Files
+## Model Files
 
 - `lstm_attention_model.keras`, `lstm_attention.weights.h5`
 - `gru_attention_model.keras`, `gru_attention.weights.h5`
