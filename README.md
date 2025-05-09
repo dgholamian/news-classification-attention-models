@@ -27,24 +27,27 @@ This project demonstrates a full pipeline for text classification on the [AG New
 5. **One-hot encoding of labels**
 
    **Word Cloud for cleaned training data**
-![Test Dataset Word Cloud](./Figures/cleaned_training_wordclouds.png "Cleaned Training Dataset Word Cloud")
+![Cleaned Training Dataset Word Cloud](./Figures/cleaned_training_wordclouds.png "Cleaned Training Dataset Word Cloud")
 
 **Word Cloud for cleaned test data**
-![Test Dataset Word Cloud](./Figures/cleaned_test_wordclouds.png "Cleaned Test Dataset Word Cloud")
+![Cleaned Test Dataset Word Cloud](./Figures/cleaned_test_wordclouds.png "Cleaned Test Dataset Word Cloud")
 
 ---
 
 ## Visualization
-- **Label Distribution:** Frequency of each class
-Sample plots:
+### Label Distribution: Frequency of each class
 
+ **Label Distribution Plot for Training Dataset**
+![Label Distribution Plot for Training Dataset](./Figures/training_dist.png "Label Distribution Plot for Training Dataset")
 
+**Label Distribution Plot for Test Dataset**
+![Label Distribution Plot for Test Dataset](./Figures/test_dist.png "Label Distribution Plot for Test Dataset")
 
 ---
 
 ##  Model Architectures
 
-### LSTM + Attention
+### LSTM with Attention Mechanism: Architecture
 
 - Embedding layer
 - Bidirectional LSTM
@@ -52,9 +55,13 @@ Sample plots:
 - Global Average Pooling
 - Dense softmax layer
 
-### GRU + Attention
+### GRU with Attention Mechanism: Architecture
 
-- Same as above, but using Bidirectional GRU
+- Embedding layer
+- Bidirectional GRU
+- Scaled Dot-Product Attention
+- Global Average Pooling
+- Dense softmax layer
 
 ---
 
@@ -71,12 +78,23 @@ Sample plots:
 ## Results
 
 ### Accuracy & Loss Plots
-- `lstm_attention.png`
-- `gru_attention.png`
+**Confusion Matrix for LSTM with Attention Mechanism**
+![Accuracy and Loss plots for LSTM with Attention Mechanism](./Figures/lstm_attention_acc_loss.png "Accuracy and Loss plots for LSTM with Attention Mechanism")
+
+
+**Confusion Matrix for GRU with Attention Mechanism**
+![Accuracy and Loss plots for GRU with Attention Mechanism](./Figures/gru_attention_acc_loss.png "Accuracy and Loss plots for GRU with Attention Mechanism")
+
+
 
 ### Confusion Matrices
-- `Confusion_matrix_LSTM+Attention.png`
-- `Confusion_matrix_GRU+Attention.png`
+**Confusion Matrix for LSTM with Attention Mechanism**
+![Confusion Matrix for LSTM with Attention Mechanism](./Figures/Confusion_matrix_LSTM+Attention.png "Confusion Matrix for LSTM with Attention Mechanism")
+
+
+**Confusion Matrix for GRU with Attention Mechanism**
+![Confusion Matrix for GRU with Attention Mechanism](./Figures/Confusion_matrix_GRU+Attention.png "Confusion Matrix for GRU with Attention Mechanism")
+
 
 ---
 
